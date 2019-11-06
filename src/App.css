@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
 
 .App-link {
   color: #09d3ac;
-}
+} */
 
 .bgi{
   opacity: 0.8;
@@ -32,14 +32,21 @@
    top: 0;
    /* right: 0; */
    /* bottom: 0; */
-   margin-top:120px;
-   width: max-content;
+   margin-top:150px;
+   width: 600px;
    height: max-content;
-   margin-left: 25px;
-   color:white;
+   margin-left: 70px;
+   color:black;
+}
+.qoute h1{
+  font-family: Marker Felt;
+  font-size: 45px;
+  text-shadow: 2px 2px 12px white;
 }
 .qoute p {
   font-size: 40px;
+  text-shadow: 2px 2px 8px black;
+  color: white;
 }
 
 .searchBAR{
@@ -53,12 +60,14 @@
   height: max-content;
   color:white;
 }
-.searchBar{
-
+.searchInpt{
+width: 500px;
+padding: 2px;
 }
-.submitBtn{
-
+.searchBtn{
+height: 30px;
+width: 500px;
 }
-.cardsVeiw{
-  width: 80%;
+.searchForm{
+  display: inline;
 }

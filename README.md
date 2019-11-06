@@ -1,10 +1,10 @@
 # Your Project Title
 
-A React app that work with Google books API.
+A React app that works with Google books API.
 
 ## Description
 
-A React app that work with Google books API to find books, list them, list their information, and view them
+A React app that works with Google books API to find books, list them, list their information, and view them
 
 ### Technical Used
 
