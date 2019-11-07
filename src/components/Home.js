@@ -1,4 +1,4 @@
-import '/Users/Adhelaim/SEI/projects/project2/project2/src/App.css';
+import '../App.css';
 import axios from 'axios'
 import {Image, Row,FormControl, Form} from 'react-bootstrap';
 import BookCard from './BookCard'
