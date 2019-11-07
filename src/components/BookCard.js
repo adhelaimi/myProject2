@@ -14,6 +14,7 @@ const BookCard = (props) => {
 <Col md="4">
 <Card style={{width: '18rem' }}>
   <Card.Img style={{width: '18rem', height:'18rem'}} variant="top" src={props.book.volumeInfo.imageLinks !== undefined ?  props.book.volumeInfo.imageLinks.thumbnail : props.img} alt="books"/>
+  {/* <Card.Img style={{width: '18rem', height:'18rem'}} variant="top" src={props.book.volumeInfo.imageLinks.thumbnail} alt="books"/> */}
   <Card.Body>
     <Card.Title>{props.book.volumeInfo.title}</Card.Title>
     <Card.Text>
